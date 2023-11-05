@@ -1,0 +1,46 @@
+.navbar {
+  margin-bottom: -15px;
+}
+ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+.trigger {
+  display: none;
+}
+.rightsec img {
+  width: 50px;
+}
+@media (max-width: 860px) {
+  .menuItems {
+    display: none;
+  }
+  .logo {
+    margin-left: 50px;
+  }
+
+  .links {
+    display: none;
+  }
+  .links.is-open {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 30px;
+    background-color: #101314;
+    width: 200px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .links.is-open li{
+    border-bottom: 1px solid white;
+  }
+  
+  .links.is-open li.last{
+    border-bottom: none;
+  }
+
+  .trigger {
+    display: block;
+  }
+}
