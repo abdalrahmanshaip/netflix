@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import './Login.css'
 import Link from 'next/link'
-import Navbar from './Navbar'
 
 function Login() {
   
